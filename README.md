@@ -10,7 +10,7 @@ O conteúdo desse repositório é privado e protegido, todos os direitos reserva
 
 
 
-## 🤝 Colaborador
+## 🤝 Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
