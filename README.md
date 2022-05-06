@@ -14,9 +14,9 @@ O conteúdo desse repositório é privado e protegido, todos os direitos reserva
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-<table margin="auto">
+<table>
   <tr>
-    <td align="center">
+    <td align="center" margin="auto">
       <a href="https://github.com/Mathemou">
         <img src="https://avatars.githubusercontent.com/Mathemou" width="100px;" alt="Foto do Matheus Santos de Moura no GitHub"/><br>
         <sub>
@@ -26,7 +26,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
    </tr>
   <tr>
-    <td align="center">
+    <td align="center" margin="auto">
       <a href="https://github.com/tallesfrancisco">
         <img src="https://avatars.githubusercontent.com/tallesfrancisco" width="100px;" alt="Foto do Talles Francisco no GitHub"/><br>
         <sub>
