@@ -14,7 +14,7 @@ O conteúdo desse repositório é privado e protegido, todos os direitos reserva
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-<table>
+<table margin="auto">
   <tr>
     <td align="center">
       <a href="https://github.com/Mathemou">
