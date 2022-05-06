@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.appgorceix">
+  package="com.projeto1">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
