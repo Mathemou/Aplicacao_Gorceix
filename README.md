@@ -30,7 +30,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://github.com/tallesfrancisco">
         <img src="https://avatars.githubusercontent.com/tallesfrancisco" width="100px;" alt="Foto do Talles Francisco no GitHub"/><br>
         <sub>
-          <b>Matheus Santos de Moura</b>
+          <b>Talles Francisco</b>
         </sub>
       </a>
     </td>
