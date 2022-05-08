@@ -5,38 +5,37 @@ import {
   TouchableOpacity,
   StyleSheet,
   Image,
-  ScrollView,
+  ScrollView,ImageBackground,
 } from 'react-native';
-
 const App = () => {
   return (
     <ScrollView>
-      <SafeAreaView style={style.container}>
-        <Text style={style.titulo}>Bem-Vindo</Text>
-        <Image
-          style={style.imagemTitulo}
-          source={{
-            uri: 'https://site.gorceixonline.com.br/uploads/fundacao_gorceix_2016/layout/logo_rodape.png',
-          }}
-          resizeMode="contain"
-        />
+        <ImageBackground source={require("./imgs/background.png")} style={style.container}>
+          <Text style={style.titulo}>Bem-Vindo</Text>
+          <Image
+            style={style.imagemTitulo}
+            source={{
+              uri: 'https://site.gorceixonline.com.br/uploads/fundacao_gorceix_2016/layout/logo_rodape.png',
+            }}
+            resizeMode="contain"
+          />
 
-        <TouchableOpacity style={style.botao}>
-          <Text style={style.tituloBotao}>SIG</Text>
-          <Text style={style.subTituloBotao}>Sistema Integrado Gorceix</Text>
-        </TouchableOpacity>
+          <TouchableOpacity style={style.botao}>
+            <Text style={style.tituloBotao}>SIG</Text>
+            <Text style={style.subTituloBotao}>Sistema Integrado Gorceix</Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity style={style.botao}>
-          <Text style={style.tituloBotao}>SAG</Text>
-          <Text style={style.subTituloBotao}>Sistema Acadêmico Gorceix</Text>
-        </TouchableOpacity>
+          <TouchableOpacity style={style.botao}>
+            <Text style={style.tituloBotao}>SAG</Text>
+            <Text style={style.subTituloBotao}>Sistema Acadêmico Gorceix</Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity style={style.botao}>
-          <Text style={style.tituloBotao}>SITE</Text>
-          <Text style={style.subTituloBotao}>Website Fundação Gorceix</Text>
-        </TouchableOpacity>
-        <Text style={style.rodape}>© 2022 | Desenvolvido por Update</Text>
-      </SafeAreaView>
+          <TouchableOpacity style={style.botao}>
+            <Text style={style.tituloBotao}>SITE</Text>
+            <Text style={style.subTituloBotao}>Website Fundação Gorceix</Text>
+          </TouchableOpacity>
+          <Text style={style.rodape}>© 2022 | Desenvolvido por Update</Text>
+        </ImageBackground>
     </ScrollView>
   );
 };
@@ -82,6 +81,10 @@ const style = StyleSheet.create({
     marginTop: '20%',
     marginBottom: '1%',
   },
+  imagem_background:{
+    flex: 1,
+    justifyContent: "center",
+  }
 });
 
 export default App;
